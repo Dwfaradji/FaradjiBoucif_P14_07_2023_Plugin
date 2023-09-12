@@ -25,6 +25,7 @@ var _jsxRuntime = require("react/jsx-runtime");
     message = _ref.message;
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_jsxRuntime.Fragment, {
     children: show === true && /*#__PURE__*/(0, _jsxRuntime.jsx)("div", {
+      "data-testid": "modal",
       className: "modal",
       id: id,
       style: style,
