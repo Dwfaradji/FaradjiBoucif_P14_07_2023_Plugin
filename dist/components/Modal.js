@@ -6,7 +6,17 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 require("./Modal.css");
 var _jsxRuntime = require("react/jsx-runtime");
-function Modal(_ref) {
+/**
+ * Modal component
+ * @param id - id of the modal
+ * @param show - boolean to show or hide the modal
+ * @param close - function to close the modal (set show to false)
+ * @param style - style of the modal
+ * @param title - title of the modal
+ * @param message - message of the modal
+ * @returns {JSX.Element}
+ * @constructor
+ */function Modal(_ref) {
   var id = _ref.id,
     show = _ref.show,
     close = _ref.close,
